@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*
+*secret*
+credentials*
+# Local run artifacts; review and explicitly copy only sanitized results
+logs/raw/
+*.log
+*.etl
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Editors
+.DS_Store
+.vscode/
+.idea/
