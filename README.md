@@ -16,6 +16,8 @@ A reproducible workspace for evaluating Grok Build on [SWE-bench Lite](https://w
 - `docs/methodology.md` — evaluation protocol and integrity rules.
 - `docs/setup.md` — local setup and run checklist.
 - `scripts/validate_predictions.py` — basic JSONL validation for SWE-bench predictions.
+- `scripts/run_evaluation.py` — preflight checks and guarded launch of the official evaluator; it does not generate patches.
+- `docs/grok-task-prompt.md` — focused prompt template for each Grok Build task.
 - `results/README.md` — expected result artifacts and publication rules.
 - `analysis/README.md` — summary and failure-analysis conventions.
 - `logs/README.md` — safe logging guidance.
