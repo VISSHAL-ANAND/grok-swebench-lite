@@ -104,7 +104,7 @@ def main() -> int:
     command = [
         "swebench", "eval", args.dataset,
         "--predictions", str(args.predictions.resolve()),
-        "--workers", str(args.workers),
+        "-j", str(args.workers),
         "--run-id", args.run_id,
         "--task-repo", str(args.task_repo.resolve()),
     ]
